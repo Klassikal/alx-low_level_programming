@@ -12,3 +12,4 @@ int _isdigit(int var)
 	if (isdigit(var))
 		return (1);
 	return (0);
+}
