@@ -11,6 +11,7 @@ void print_most_numbers(void)
 
 	do {
 		if (var == 4 || var == 2)
+			
 		{
 			var++;
 			continue;
