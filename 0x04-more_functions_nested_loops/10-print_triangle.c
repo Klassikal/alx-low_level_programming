@@ -20,9 +20,6 @@ void print_triangle(int var)
 			{
 				if (ii > (var - size))
 					_putchar('#');
-				else
-					if (var < 1)
-						_putchar('\n');
 					else
 					{
 						int size = 1;
