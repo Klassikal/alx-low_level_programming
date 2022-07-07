@@ -11,7 +11,11 @@ void print_most_numbers(void)
 
 	do {
 		if (var == 4 || var == 2)
+<<<<<<< HEAD
 
+=======
+			
+>>>>>>> f78aa28684d520301812019004a1b2e2ecb2eb1c
 		{
 			var++;
 			continue;
