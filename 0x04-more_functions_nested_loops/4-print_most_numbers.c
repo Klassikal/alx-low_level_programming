@@ -8,6 +8,7 @@
 void print_most_numbers(void)
 {
 	int var = 0;
+
 	do {
 		if (var == 4 || var == 2)
 		{
