@@ -28,7 +28,7 @@ void print_number(int var)
 	if (var < 0)
 	{
 		_putchar('-');
-		var = -var;
+		var = -var
 	}
 
 	print(var);
