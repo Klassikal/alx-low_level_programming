@@ -20,26 +20,11 @@ void print_triangle(int var)
 			{
 				if (ii > (var - size))
 					_putchar('#');
-					else
-					{
-						int size = 1;
-
-						do {
-							int ii;
-
-							for (ii = 1; ii <= var; ii++)
-							{
-								if (ii > (var - size))
-									_Putchar('#');
-								else
-									_putchar(' ');
-							}
-							_putchar('\n');
-							size++;
-						} while (size <= var);
-					}
+				else
+					_putchar(' ');
 			}
-		}
+			_putchar('\n');
+			size++;
+		} while (size <= var);
 	}
 }
-
