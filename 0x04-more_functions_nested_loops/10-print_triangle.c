@@ -39,4 +39,7 @@ void print_triangle(int var)
 						} while (size <= var);
 					}
 			}
+		}
+	}
+}
 
