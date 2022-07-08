@@ -3,7 +3,7 @@
 /**
  * print_triangle - print triangle with size var
  * @var: size of a triangle to print
- * */
+ */
 
 void print_triangle(int var)
 {
