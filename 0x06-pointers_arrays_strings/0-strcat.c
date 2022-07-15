@@ -2,9 +2,15 @@
 #include <string.h>
 
 /**
+<<<<<<< HEAD
  * * _strcat - function that concatenates two strings
  * @dest: first param
  * @src: second param
+=======
+ * *_strcat - function that concatenates two strings
+ * @dest: first parameter
+ * @src: second parameter
+>>>>>>> f5be812b9b690f1aed10a03da90e6d9d4282efe8
  * Return: a string
  */
 
