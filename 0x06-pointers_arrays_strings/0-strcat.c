@@ -1,12 +1,13 @@
 #include "main.h"
-
+#include <string.h>
 
 /**
- * _strcat -> this is a function strcat
+ * * _strcat - function that concatenates two strings
  * @dest: first param
  * @src: second param
  * Return: a string
  */
+
 char *_strcat(char *dest, char *src)
 {
 	int len = 0, i;
