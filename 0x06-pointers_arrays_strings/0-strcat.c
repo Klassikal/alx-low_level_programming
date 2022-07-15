@@ -2,23 +2,20 @@
 
 
 /**
- * _strcat -> this is a function strcat
- * @dest: first param
- * @src: second param
- * Return: a string
+ * _strcat - a function that concatenates two strings.
+ * @dest: an input string
+ * @src: an input string
+ * Return: A pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
-	int len = 0, i;
+	char *temp = dest;
 
-	while (dest[len])
-		len++;
+	while (*dest)
+		dest ++;
+	while (*src)
+		*dest ++ = *src++;
 
-	for (i = 0; src[i] != 0; i++)
-	{
-		dest[len] = src[i];
-		len += 1;
-	}
-	dest[len] = '\0';
-	return (dest);
+	*dest = '\0';
+	return (temp);
 }
