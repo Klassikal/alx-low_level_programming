@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	if (argc != 2)
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	total = strtol(argv[1], &p, 10);
@@ -43,7 +43,7 @@ int main(int argc, char **argv)
 	else
 	{
 		printf("Error\n");
-		return(1);
+		return (1);
 	}
 
 	printf("%d\n", count);
