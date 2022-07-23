@@ -1,1 +1,1 @@
-certainly not empty
+C Variables assignment
