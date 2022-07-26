@@ -3,10 +3,10 @@
 
 /**
  * ch_free_grid - frees a 2 dimensional array.
- *  @grid: multidimensional array of char.
- *  @height: height of the array.
+ * @grid: multidimensional array of char.
+ * @height: height of the array.
  *
- *  Return: no return
+ * Return: no return
  */
 void ch_free_grid(char **grid, unsigned int height)
 {
@@ -46,7 +46,7 @@ char **strtow(char *str)
 		for (c = a1; str[c] != '\0'; c++)
 		{
 			if (str[c] == ' ')
-				al++;
+				a1++;
 			if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 			{
 				aout[i] = malloc((c - a1 + 2) * sizeof(char));
@@ -65,4 +65,3 @@ char **strtow(char *str)
 	aout[i] = NULL;
 	return (aout);
 }
-
