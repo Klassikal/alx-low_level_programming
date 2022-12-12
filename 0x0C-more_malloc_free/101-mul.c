@@ -36,7 +36,7 @@ void _is_zero(char *argv[])
 
 /**
  * _initialize_array - set memery to zero in a new array
- * @char: char array.
+ * @ar: char array.
  * @lar: length of the char array.
  *
  * Return: pointer of a char array.
@@ -76,7 +76,7 @@ int _checknum(char *argv[], int n)
 /**
  * main - Entry point.
  * program that multiplies two positive numbers.
- * * @argc: number of arguments.
+ * @argc: number of arguments.
  * @argv: arguments vector.
  *
  * Return: 0 - success.
